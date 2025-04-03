@@ -29,3 +29,8 @@ variable "tfc_workspace_name" {
   default     = "my-aws-workspace"
   description = "The name of the workspace that you'd like to create and connect to AWS"
 }
+variable "aws_region" {
+  type        = string
+  default     = "us-east-2"
+  description = "AWS region for all resources"
+}
